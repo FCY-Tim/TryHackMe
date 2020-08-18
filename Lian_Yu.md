@@ -1,3 +1,4 @@
+Work In Progress
 # Lian_Yu Writeup
 
 ## [Task 1] Find the Flags 
@@ -6,10 +7,17 @@
 
 - Visiting the Site 
 oliver queen 
+html
 - Source-code
 nothing
-- 
-
+- Dirbuster
+/island
+- Source-code
+Code Word: vigilante
+/island/2100/
+- Source-code
+a youtube video
+<!-- you can avail your .ticket here but how?   -->
 
 ### 2 What is the Web Directory you found?
 ### 3 what is the file name you found?
