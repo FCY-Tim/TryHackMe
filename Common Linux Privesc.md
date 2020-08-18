@@ -89,7 +89,7 @@ password = password
 
 
 ### 8 After about 5 minutes, you should have a shell as root land in your netcat listening session! Congratulations! 
-![1](https://user-images.githubusercontent.com/69840849/90490301-d17ecb80-e181-11ea-85a1-643eaa24b2f9.png)
+![1](https://user-images.githubusercontent.com/69840849/90490473-01c66a00-e182-11ea-88c6-f84af16895ba.png)
 
 
 ## [Task 9] Exploiting PATH Variable 
