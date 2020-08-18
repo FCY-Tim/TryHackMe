@@ -12,6 +12,7 @@ username = user3
 password = password
 
 - ssh user3@10.10.x.x
+![1](https://user-images.githubusercontent.com/69840849/90487021-3683f280-e17d-11ea-92b6-a03a6ba4ffdd.png)
 
 ### 2 What is the target's hostname?
 
