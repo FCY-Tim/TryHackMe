@@ -6,13 +6,33 @@ Follow Readings
 
 ## Task 4 Enumeration
 
-### 1 SSH into machine 
+### 1 SSH into machine with the provided credentials 
 
+username = user3
+password = password
 
-1. Numbered
-2. List
+- ssh user3@10.10.x.x
 
-**Bold** and _Italic_ and `Code` text
+### 2 What is the target's hostname?
 
-[Link](url) and ![Image](src)
-```
+- hostname
+ 
+### 3 Look at the output of /etc/passwd how many "user[x]" are there on the system?
+
+- cat /etc/passwd
+
+### 4 How many available shells are there on the system?
+
+- cat /etc/shells
+
+### 5 What is the name of the bash script that is set to run every 5 minutes by cron? 
+
+- cat /etc/crontab
+[!] You should be able to find the name of the .sh file
+
+### 6 What critical file has had its permissions changed to allow some users to write to it?
+
+- ls -la /etc/passwd
+
+### 7 Enumeration Completed
+
