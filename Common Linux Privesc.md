@@ -22,22 +22,23 @@ password = password
 ### 3 Look at the output of /etc/passwd how many "user[x]" are there on the system?
 
 - cat /etc/passwd
-![1](https://user-images.githubusercontent.com/69840849/90487430-d6da1700-e17d-11ea-8483-e110194c8f79.png)
+![1](https://user-images.githubusercontent.com/69840849/90487951-7f887680-e17e-11ea-9a89-695bbae5f50e.png)
 
 ### 4 How many available shells are there on the system?
 
 - cat /etc/shells
-![1](https://user-images.githubusercontent.com/69840849/90487568-fe30e400-e17d-11ea-896f-431cff7344b6.png)
+![1](https://user-images.githubusercontent.com/69840849/90487873-654e9880-e17e-11ea-930b-d8a76d45b608.png)
 
 ### 5 What is the name of the bash script that is set to run every 5 minutes by cron? 
 
 - cat /etc/crontab
 [!] You should be able to find the name of the .sh file
-![1](https://user-images.githubusercontent.com/69840849/90487631-143ea480-e17e-11ea-8e5f-00a929f4e654.png)
+![1](https://user-images.githubusercontent.com/69840849/90487765-405a2580-e17e-11ea-917b-2c482e84784c.png)
 
 ### 6 What critical file has had its permissions changed to allow some users to write to it?
 
 - ls -la /etc/passwd
+![1](https://user-images.githubusercontent.com/69840849/90488017-9929be00-e17e-11ea-8e7b-2a970579333e.png)
 
 ### 7 Enumeration Completed
 
