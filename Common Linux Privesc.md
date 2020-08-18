@@ -1,10 +1,10 @@
 # Common Linux Privesc
 
-## Task 1 - 3
+## [Task 1 - 3]
 
-Follow Readings
+Follow The Readings Provided
 
-## Task 4 Enumeration
+## [Task 4] Enumeration
 
 ### 1 SSH into machine with the provided credentials 
 
@@ -42,3 +42,7 @@ password = password
 
 ### 7 Enumeration Completed
 
+
+## [Task 5] Abusing SUID/GUID Files
+
+## [Task 6] Exploiting Writeable /etc/passwd 
