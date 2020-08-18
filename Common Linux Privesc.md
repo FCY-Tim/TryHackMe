@@ -2,12 +2,12 @@
 
 ## Task 1 - 3
 
-Readings
+Follow Readings
 
-## Task 4
+## Task 4 Enumeration
 
-- Bulleted
-- List
+# 1 SSH into machine 
+
 
 1. Numbered
 2. List
