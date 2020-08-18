@@ -12,11 +12,12 @@ username = user3
 password = password
 
 - ssh user3@10.10.x.x
-![1](https://user-images.githubusercontent.com/69840849/90487021-3683f280-e17d-11ea-92b6-a03a6ba4ffdd.png)
+![1](https://user-images.githubusercontent.com/69840849/90487228-85318c80-e17d-11ea-97a6-4fae52b8f968.png)
 
 ### 2 What is the target's hostname?
 
 - hostname
+![1](https://user-images.githubusercontent.com/69840849/90487310-a4c8b500-e17d-11ea-8c13-e124db0080e5.png)
  
 ### 3 Look at the output of /etc/passwd how many "user[x]" are there on the system?
 
