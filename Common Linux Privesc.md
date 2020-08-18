@@ -1,4 +1,4 @@
-# Common Linux Privesc
+# Common Linux Privesc Writeup
 
 ## [Task 1 - 3]
 
@@ -42,7 +42,14 @@ password = password
 
 ### 7 Enumeration Completed
 
-
 ## [Task 5] Abusing SUID/GUID Files
 
 ## [Task 6] Exploiting Writeable /etc/passwd 
+
+## [Task 7] Escaping Vi Editor 
+
+## [Task 8] Exploiting Crontab 
+
+## [Task 9] Exploiting PATH Variable 
+
+## [Task 10] Expanding Your Knowledge 
