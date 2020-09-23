@@ -43,12 +43,15 @@ password = password
 ### 7 Enumeration Completed
 
 ## [Task 5] Abusing SUID/GUID Files
+Work In Progress
 
-## [Task 6] Exploiting Writeable /etc/passwd 
+## [Task 6] Exploiting Writeable /etc/passwd
+Work In Progress
 
-## [Task 7] Escaping Vi Editor 
+## [Task 7] Escaping Vi Editor
+Work In Progress
 
-## [Task 8] Exploiting Crontab 
+## [Task 8] Exploiting Crontab
 
 ### 1 Switch user to User4 with the provided credentials 
 
@@ -96,7 +99,8 @@ password = password
 ![1](https://user-images.githubusercontent.com/69840849/90490473-01c66a00-e182-11ea-88c6-f84af16895ba.png)
 
 
-## [Task 9] Exploiting PATH Variable 
+## [Task 9] Exploiting PATH Variable
+Work In Progress
 
 ## [Task 10] Expanding Your Knowledge 
 
